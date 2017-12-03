@@ -1,5 +1,7 @@
 # research-library
 
+`bundle exec jekyll serve`
+
 Data to store on each entry:
 
 - `link`
