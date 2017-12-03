@@ -2,12 +2,11 @@
 
 Data to store on each entry:
 
-- link
-- tags
-- description
-- type (maybe)
-- date published
-- date linked
+- `link`
+- `tags`
+- `description`
+- `datePublished`
+- `dateLinked`
 
 What to do with the data:
 
@@ -18,3 +17,4 @@ What to do with the data:
 - entries are published to the front page and an RSS feed by "date linked" field
 - Each link automatically gets its own detail page
 - Entries on the front page or category pages include a link to the detail page, plus a direct link to the resource
+- some tags can be used to change how entries or detail pages are rendered, such as `#video`
